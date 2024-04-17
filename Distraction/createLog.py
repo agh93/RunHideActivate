@@ -3,11 +3,34 @@
 # Trigger distraction events TO DO
 # Save triggered distraction events in log.txt
 
-import keyboard # remove once server communication working
-from datetime import datetime
+import RPi.GPIO as GPIO
 from time import strftime
 from time import time
+from datetime import datetime
 import random
+
+
+# =================================================================================
+# GPIO callbacks
+# =================================================================================
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(27, GPIO.IN, pull_up_down = GPIO.PUD_UP)
+GPIO.setup(22, GPIO.IN, pull_up_down = GPIO.PUD_UP)
+
+code_started = False
+def GPIO27_callback(channel):
+    global code_started
+    code_started = True
+    print("Button 27 Pressed")
+
+main_run = True
+def GPIO22_callback(channel):
+    global main_run
+    main_run = False
+    print("Button 22 Pressed")
+    
+GPIO.add_event_detect(27, GPIO.FALLING, callback=GPIO27_callback, bouncetime=300)
+GPIO.add_event_detect(22, GPIO.FALLING, callback=GPIO22_callback, bouncetime=300)
 
 
 # =================================================================================
@@ -26,10 +49,8 @@ def get_time_str():
 
 # Pressing p on the keyboard will trigger the start event
 # To do: Eventually make this event communication from server
-code_started = False
 while not code_started:
-    if keyboard.is_pressed('p'):
-        code_started = True
+    continue
 
 
 # Indicate when the device was activated
@@ -47,9 +68,6 @@ f.close()
 # Trigger distractions at random times, randomly select from list of distractions
 # Detect deactivate condition
 
-# End condition variables
-main_run = True
-
 # Distraction timing variables
 prev_distraction_time = 0
 wait_time = 0
@@ -58,12 +76,6 @@ max_wait_time = 7
 
 # Enter control loop
 while main_run:
-      
-    # Detect end condition
-    # Pressing q on the keyboard will trigger the end event
-    # To do: Eventually make this event communication from server
-    if keyboard.is_pressed('q'):
-        main_run = False
 
     # Trigger a distraction if we've exceeded the wait time
     # Once distraction is triggered, randomize wait time
@@ -80,6 +92,7 @@ while main_run:
         # Save to log file
         f = open("log.txt", "a")
         distraction_str = ("Noise     " if distraction == 0 else ("Marbles   " if distraction == 1 else "Confetti  ")) + get_time_str()
+        print(distraction_str)
         f.write(distraction_str + "\n")
         f.close()
 
@@ -91,3 +104,4 @@ while main_run:
 f = open("log.txt", "a")
 f.write("\nUnit Deactivated " + get_time_str() + "\n\n\n")
 f.close()
+GPIO.cleanup()
