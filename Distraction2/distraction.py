@@ -333,7 +333,7 @@ while code_run:
             
             # Select a random distraction
             # 1 = lights, 2 = marbles, 3 = audio
-            dist = random.randint(2,3)
+            dist = random.randint(1,3)
             
             # Deploy the proper distraction and communicate as needed
             if system_activated:

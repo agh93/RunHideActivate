@@ -316,7 +316,6 @@ def audio():
 # Loop to keep program running
 code_run = True
 while code_run:
-    
 	
     # Loop for activated state
     while system_activated:
