@@ -1,0 +1,88 @@
+Shooter Detected: 12/16/24 at 02:37:44
+Shooter Detected: 12/16/24 at 02:38:05
+Shooter Detected: 12/16/24 at 02:40:54
+Shooter Detected: 12/16/24 at 02:42:05
+Lights    12/16/24 at 02:42:14
+Shooter Detected: 12/16/24 at 02:42:15
+Shooter Detected: 12/16/24 at 02:42:50
+Marbles   12/16/24 at 02:42:58
+Shooter Detected: 12/16/24 at 02:43:44
+Shooter Detected: 12/16/24 at 02:43:55
+Shooter Detected: 12/16/24 at 02:45:25
+Shooter Detected: 12/16/24 at 02:46:57
+Shooter Detected: 12/16/24 at 02:48:23
+Lights    12/16/24 at 02:48:30
+Shooter Detected: 12/16/24 at 02:48:43
+Marbles   12/16/24 at 02:48:47
+Shooter Detected: 12/16/24 at 02:48:58
+Lights    12/16/24 at 02:49:02
+Lights    12/16/24 at 02:49:23
+Lights    12/16/24 at 02:49:40
+Shooter Detected: 12/16/24 at 02:50:28
+Lights    12/16/24 at 02:50:35
+Shooter Detected: 12/16/24 at 02:50:51
+Marbles   12/16/24 at 02:50:53
+Audio     12/16/24 at 02:51:05
+Shooter Detected: 12/16/24 at 02:51:15
+Audio     12/16/24 at 02:51:22
+Lights    12/16/24 at 02:51:35
+Audio     12/16/24 at 02:51:56
+Shooter Detected: 12/17/24 at 09:34:16
+Marbles   12/17/24 at 09:34:26
+Shooter Detected: 12/17/24 at 09:34:30
+Shooter Detected: 12/17/24 at 09:34:31
+Shooter Detected: 12/17/24 at 09:34:31
+Shooter Detected: 12/17/24 at 09:34:31
+Shooter Detected: 12/17/24 at 09:34:31
+Shooter Detected: 12/17/24 at 09:34:31
+Shooter Detected: 12/17/24 at 09:34:31
+Shooter Detected: 12/17/24 at 09:34:31
+Shooter Detected: 12/17/24 at 09:34:31
+Shooter Detected: 12/17/24 at 09:34:32
+Shooter Detected: 12/17/24 at 09:34:32
+Shooter Detected: 12/17/24 at 09:34:32
+Shooter Detected: 12/17/24 at 09:34:32
+Shooter Detected: 12/17/24 at 09:34:32
+Shooter Detected: 12/17/24 at 09:34:32
+Shooter Detected: 12/17/24 at 09:34:32
+Shooter Detected: 12/17/24 at 09:34:32
+Shooter Detected: 12/17/24 at 09:34:32
+Shooter Detected: 12/17/24 at 09:34:32
+Shooter Detected: 12/17/24 at 09:34:32
+Shooter Detected: 12/17/24 at 09:34:40
+Marbles   12/17/24 at 09:34:42
+Shooter Detected: 12/17/24 at 09:34:52
+Shooter Detected: 12/17/24 at 09:41:06
+Lights    12/17/24 at 09:41:15
+Shooter Detected: 12/17/24 at 09:42:23
+Marbles   12/17/24 at 09:42:29
+Shooter Detected: 12/17/24 at 09:42:32
+Shooter Detected: 12/17/24 at 09:42:34
+Shooter Detected: 12/17/24 at 09:42:34
+Shooter Detected: 12/17/24 at 09:42:34
+Shooter Detected: 12/17/24 at 09:42:34
+Shooter Detected: 12/17/24 at 09:42:34
+Shooter Detected: 12/17/24 at 09:42:34
+Shooter Detected: 12/17/24 at 09:42:34
+Shooter Detected: 12/17/24 at 09:42:35
+Shooter Detected: 12/17/24 at 09:42:35
+Shooter Detected: 12/17/24 at 09:42:35
+Shooter Detected: 12/17/24 at 09:42:45
+Audio     12/17/24 at 09:42:46
+Shooter Detected: 12/17/24 at 09:42:57
+Audio     12/17/24 at 09:42:59
+Shooter Detected: 12/17/24 at 09:53:34
+Audio     12/17/24 at 09:53:40
+Marbles   12/17/24 at 09:53:56
+Marbles   12/17/24 at 09:54:13
+Shooter Detected: 12/17/24 at 09:54:34
+Shooter Detected: 12/17/24 at 09:54:42
+Marbles   12/17/24 at 09:54:49
+Shooter Detected: 12/17/24 at 10:03:43
+Shooter Detected: 12/17/24 at 10:04:06
+Shooter Detected: 12/17/24 at 10:04:07
+Marbles   12/17/24 at 10:04:12
+Shooter Detected: 12/17/24 at 10:04:15
+Marbles   12/17/24 at 10:04:28
+Shooter Detected: 12/17/24 at 10:04:34
+Audio     12/17/24 at 10:04:42
